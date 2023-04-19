@@ -285,7 +285,6 @@ console.log({products})
  * Acá tienen que escribir la descripción de esta función
  * @param {[]} products 
  */
-
 const renderProducts = (products) => {
     rootProducts.innerHTML = "";
     products.forEach(product => {
@@ -329,3 +328,28 @@ const renderProducts = (products) => {
 }
 
 renderProducts(products);
+
+
+const categoriesArray = productsResponse.map(product => {
+    return product.category
+})
+
+console.log({categoriesArray})
+
+// mens -> Guarda
+// mens de nuevo -> lo ignora
+// jewerly -> guarda
+// electronics -> guarda
+// mens -> lo guarda
+
+const categories = [...new Set(categoriesArray)];
+
+console.log({ categories });
+
+// TODO: DESARROLLAR CÓMO IMPLEMENTAR LAS CATEGORÍAS DE MANERA DINÁMICA
+// const rootCategories = document.getElementById("root-categories");
+// console.log(rootCategories)
+
+// const renderCategories = (categories) => {
+//     // -----
+// }
