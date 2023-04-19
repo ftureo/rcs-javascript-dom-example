@@ -353,3 +353,29 @@ console.log({ categories });
 // const renderCategories = (categories) => {
 //     // -----
 // }
+
+
+// Grupo de Carlos: Luis, Naim, Jeremias, Carlos
+
+const developers = [
+    {
+        id: 1,
+        devName: "Carlos Avanzini", 
+        urlLinkedIn: "https://linkedin.com/carlosavanzini"
+    },
+    {
+        id: 2,
+        devName: "Fabi Tureo",
+        urlLinkedIn: "https://linkedin.com/fabitureo"
+    },
+        {
+        id: 1,
+        devName: "Carlos Avanzini", 
+        urlLinkedIn: "https://linkedin.com/carlosavanzini"
+    },
+    {
+        id: 2,
+        devName: "Fabi Tureo",
+        urlLinkedIn: "https://linkedin.com/fabitureo"
+    }
+]
